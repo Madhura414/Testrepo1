@@ -38,7 +38,7 @@ public class Launchchrome {
         loginButton.click();
         Thread.sleep(3000);
         // Quit the driver
-        driver.quit();
+        driver.close();
     }
 }
 
