@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>SeleniumDemo</groupId>
+    <artifactId>AutomationSelenium</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+        <!-- Selenium Java Dependency -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <!-- Custom Automation Framework Dependency -->
+        <dependency>
+            <groupId>com.Siri.selenium</groupId>
+            <artifactId>Siri-automation-framework</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!-- TestNG Dependency -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.0.0</version>
+        </dependency>
+    </dependencies>
+</project>
